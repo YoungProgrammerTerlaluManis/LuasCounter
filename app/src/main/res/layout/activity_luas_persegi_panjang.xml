@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LuasPersegiPanjangActivity"
+    android:orientation="vertical"
+    android:background="@color/bg_bluue">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Pesergi panjang"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:background="@color/bg_bluue"
+        android:gravity="center"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rumus: Panjang x Lebar"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="42dp"/>
+
+    <EditText
+        android:id="@+id/edtPanjang"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:layout_marginTop="40dp"
+        android:text="Input Panjang"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:backgroundTint="#fff" />
+
+    <EditText
+        android:id="@+id/edtLebar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:layout_marginTop="40dp"
+        android:text="Input Lebar"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:backgroundTint="#fff" />
+
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hasil"
+        android:textSize="80dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="hitung"
+        android:background="@color/colorButton"
+        android:textColor="#FFF"
+        android:layout_marginTop="12dp"/>
+
+
+</LinearLayout>
